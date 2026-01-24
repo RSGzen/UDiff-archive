@@ -1,0 +1,1769 @@
+{
+    "generated_at": "2026-01-24 17:32:31",
+    "total_jobs_analyzed": 2429,
+    "job_distribution": {
+        "General Software Engineering": 360,
+        "QA & Testing": 355,
+        "Data & Analytics": 293,
+        "Hardware & Manufacturing": 178,
+        "Backend": 161,
+        "IT Support": 157,
+        "Other": 138,
+        "Internship & Entry Level": 111,
+        "AI & Machine Learning": 105,
+        "Fullstack": 91,
+        "Project & Sales Engineering": 91,
+        "Network & Infrastructure": 85,
+        "Frontend Web": 84,
+        "Cybersecurity": 83,
+        "Cloud & DevOps": 83,
+        "Mobile Development": 37,
+        "Embedded/Systems": 17
+    },
+    "categories": {
+        "General Software Engineering": {
+            "job_count": 360,
+            "salary": {
+                "avg_min": 5072,
+                "avg_max": 6944,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 178,
+                    "percentage": 49.4
+                },
+                {
+                    "name": "Java",
+                    "count": 94,
+                    "percentage": 26.1
+                },
+                {
+                    "name": "JavaScript",
+                    "count": 85,
+                    "percentage": 23.6
+                },
+                {
+                    "name": "C#",
+                    "count": 68,
+                    "percentage": 18.9
+                },
+                {
+                    "name": "CSS",
+                    "count": 47,
+                    "percentage": 13.1
+                },
+                {
+                    "name": "HTML",
+                    "count": 45,
+                    "percentage": 12.5
+                },
+                {
+                    "name": "SQL",
+                    "count": 45,
+                    "percentage": 12.5
+                },
+                {
+                    "name": "Git",
+                    "count": 42,
+                    "percentage": 11.7
+                },
+                {
+                    "name": "React",
+                    "count": 38,
+                    "percentage": 10.6
+                },
+                {
+                    "name": "MySQL",
+                    "count": 34,
+                    "percentage": 9.4
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Web Development",
+                    "count": 35,
+                    "percentage": 9.7
+                },
+                {
+                    "name": "Backend Development",
+                    "count": 22,
+                    "percentage": 6.1
+                },
+                {
+                    "name": "DevOps",
+                    "count": 21,
+                    "percentage": 5.8
+                },
+                {
+                    "name": "Software Development",
+                    "count": 13,
+                    "percentage": 3.6
+                },
+                {
+                    "name": "Automation",
+                    "count": 11,
+                    "percentage": 3.1
+                },
+                {
+                    "name": "Data Engineering",
+                    "count": 10,
+                    "percentage": 2.8
+                },
+                {
+                    "name": "Cloud Computing",
+                    "count": 10,
+                    "percentage": 2.8
+                },
+                {
+                    "name": "Frontend Development",
+                    "count": 10,
+                    "percentage": 2.8
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Collaboration",
+                "Problem-solving",
+                "Teamwork"
+            ]
+        },
+        "Internship & Entry Level": {
+            "job_count": 111,
+            "salary": {
+                "avg_min": 1874,
+                "avg_max": 2367,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 68,
+                    "percentage": 61.3
+                },
+                {
+                    "name": "Java",
+                    "count": 31,
+                    "percentage": 27.9
+                },
+                {
+                    "name": "SQL",
+                    "count": 20,
+                    "percentage": 18.0
+                },
+                {
+                    "name": "JavaScript",
+                    "count": 16,
+                    "percentage": 14.4
+                },
+                {
+                    "name": "HTML",
+                    "count": 13,
+                    "percentage": 11.7
+                },
+                {
+                    "name": "CSS",
+                    "count": 11,
+                    "percentage": 9.9
+                },
+                {
+                    "name": "MySQL",
+                    "count": 11,
+                    "percentage": 9.9
+                },
+                {
+                    "name": "Power BI",
+                    "count": 9,
+                    "percentage": 8.1
+                },
+                {
+                    "name": "Excel",
+                    "count": 9,
+                    "percentage": 8.1
+                },
+                {
+                    "name": "C#",
+                    "count": 8,
+                    "percentage": 7.2
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Web Development",
+                    "count": 12,
+                    "percentage": 10.8
+                },
+                {
+                    "name": "Data Analysis",
+                    "count": 9,
+                    "percentage": 8.1
+                },
+                {
+                    "name": "Data Engineering",
+                    "count": 8,
+                    "percentage": 7.2
+                },
+                {
+                    "name": "Software Development",
+                    "count": 7,
+                    "percentage": 6.3
+                },
+                {
+                    "name": "NLP",
+                    "count": 6,
+                    "percentage": 5.4
+                },
+                {
+                    "name": "IT Support",
+                    "count": 6,
+                    "percentage": 5.4
+                },
+                {
+                    "name": "Data Science",
+                    "count": 6,
+                    "percentage": 5.4
+                },
+                {
+                    "name": "Machine Learning",
+                    "count": 4,
+                    "percentage": 3.6
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Teamwork",
+                "Problem-solving",
+                "Collaboration"
+            ]
+        },
+        "Embedded/Systems": {
+            "job_count": 17,
+            "salary": {
+                "avg_min": 4958,
+                "avg_max": 6750,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 10,
+                    "percentage": 58.8
+                },
+                {
+                    "name": "C++",
+                    "count": 8,
+                    "percentage": 47.1
+                },
+                {
+                    "name": "C",
+                    "count": 8,
+                    "percentage": 47.1
+                },
+                {
+                    "name": "C/C++",
+                    "count": 5,
+                    "percentage": 29.4
+                },
+                {
+                    "name": "C#",
+                    "count": 4,
+                    "percentage": 23.5
+                },
+                {
+                    "name": "I2C",
+                    "count": 3,
+                    "percentage": 17.6
+                },
+                {
+                    "name": "UML",
+                    "count": 3,
+                    "percentage": 17.6
+                },
+                {
+                    "name": "Bash",
+                    "count": 2,
+                    "percentage": 11.8
+                },
+                {
+                    "name": "Perl",
+                    "count": 2,
+                    "percentage": 11.8
+                },
+                {
+                    "name": "UART",
+                    "count": 2,
+                    "percentage": 11.8
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Embedded Systems",
+                    "count": 10,
+                    "percentage": 58.8
+                },
+                {
+                    "name": "Firmware Development",
+                    "count": 5,
+                    "percentage": 29.4
+                },
+                {
+                    "name": "Communication Devices",
+                    "count": 4,
+                    "percentage": 23.5
+                },
+                {
+                    "name": "Industrial Automation",
+                    "count": 3,
+                    "percentage": 17.6
+                },
+                {
+                    "name": "Consumer Products",
+                    "count": 3,
+                    "percentage": 17.6
+                },
+                {
+                    "name": "Automotive Applications",
+                    "count": 2,
+                    "percentage": 11.8
+                },
+                {
+                    "name": "IoT",
+                    "count": 2,
+                    "percentage": 11.8
+                },
+                {
+                    "name": "Real-time Software",
+                    "count": 1,
+                    "percentage": 5.9
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Collaboration",
+                "Teamwork",
+                "Good Communication"
+            ]
+        },
+        "Backend": {
+            "job_count": 161,
+            "salary": {
+                "avg_min": 6542,
+                "avg_max": 9271,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Java",
+                    "count": 73,
+                    "percentage": 45.3
+                },
+                {
+                    "name": "MySQL",
+                    "count": 60,
+                    "percentage": 37.3
+                },
+                {
+                    "name": "Git",
+                    "count": 48,
+                    "percentage": 29.8
+                },
+                {
+                    "name": "JavaScript",
+                    "count": 44,
+                    "percentage": 27.3
+                },
+                {
+                    "name": "Spring Boot",
+                    "count": 31,
+                    "percentage": 19.3
+                },
+                {
+                    "name": "PostgreSQL",
+                    "count": 29,
+                    "percentage": 18.0
+                },
+                {
+                    "name": "Python",
+                    "count": 28,
+                    "percentage": 17.4
+                },
+                {
+                    "name": "C#",
+                    "count": 28,
+                    "percentage": 17.4
+                },
+                {
+                    "name": "AWS",
+                    "count": 27,
+                    "percentage": 16.8
+                },
+                {
+                    "name": "PHP",
+                    "count": 26,
+                    "percentage": 16.1
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Backend Development",
+                    "count": 40,
+                    "percentage": 24.8
+                },
+                {
+                    "name": "Microservices",
+                    "count": 26,
+                    "percentage": 16.1
+                },
+                {
+                    "name": "Web Development",
+                    "count": 22,
+                    "percentage": 13.7
+                },
+                {
+                    "name": "DevOps",
+                    "count": 17,
+                    "percentage": 10.6
+                },
+                {
+                    "name": "Microservices Architecture",
+                    "count": 12,
+                    "percentage": 7.5
+                },
+                {
+                    "name": "Fintech",
+                    "count": 9,
+                    "percentage": 5.6
+                },
+                {
+                    "name": "Spring Boot Backend",
+                    "count": 8,
+                    "percentage": 5.0
+                },
+                {
+                    "name": "Cloud Computing",
+                    "count": 7,
+                    "percentage": 4.3
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Problem-solving",
+                "Collaboration",
+                "Teamwork"
+            ]
+        },
+        "IT Support": {
+            "job_count": 157,
+            "salary": {
+                "avg_min": 3443,
+                "avg_max": 4560,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 85,
+                    "percentage": 54.1
+                },
+                {
+                    "name": "Java",
+                    "count": 33,
+                    "percentage": 21.0
+                },
+                {
+                    "name": "Linux",
+                    "count": 29,
+                    "percentage": 18.5
+                },
+                {
+                    "name": "Windows",
+                    "count": 26,
+                    "percentage": 16.6
+                },
+                {
+                    "name": "AWS",
+                    "count": 11,
+                    "percentage": 7.0
+                },
+                {
+                    "name": "Windows Server",
+                    "count": 11,
+                    "percentage": 7.0
+                },
+                {
+                    "name": "Active Directory",
+                    "count": 9,
+                    "percentage": 5.7
+                },
+                {
+                    "name": "Microsoft Office",
+                    "count": 9,
+                    "percentage": 5.7
+                },
+                {
+                    "name": "SQL",
+                    "count": 9,
+                    "percentage": 5.7
+                },
+                {
+                    "name": "SAP",
+                    "count": 8,
+                    "percentage": 5.1
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "IT Support",
+                    "count": 15,
+                    "percentage": 9.6
+                },
+                {
+                    "name": "Network Administration",
+                    "count": 12,
+                    "percentage": 7.6
+                },
+                {
+                    "name": "System Administration",
+                    "count": 9,
+                    "percentage": 5.7
+                },
+                {
+                    "name": "IT Operations",
+                    "count": 6,
+                    "percentage": 3.8
+                },
+                {
+                    "name": "Cybersecurity",
+                    "count": 6,
+                    "percentage": 3.8
+                },
+                {
+                    "name": "Manufacturing",
+                    "count": 6,
+                    "percentage": 3.8
+                },
+                {
+                    "name": "Database Management",
+                    "count": 5,
+                    "percentage": 3.2
+                },
+                {
+                    "name": "Virtualization",
+                    "count": 5,
+                    "percentage": 3.2
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Teamwork",
+                "Problem Solving",
+                "Problem-solving"
+            ]
+        },
+        "QA & Testing": {
+            "job_count": 355,
+            "salary": {
+                "avg_min": 4774,
+                "avg_max": 6448,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 202,
+                    "percentage": 56.9
+                },
+                {
+                    "name": "Java",
+                    "count": 61,
+                    "percentage": 17.2
+                },
+                {
+                    "name": "SPC",
+                    "count": 30,
+                    "percentage": 8.5
+                },
+                {
+                    "name": "Selenium",
+                    "count": 26,
+                    "percentage": 7.3
+                },
+                {
+                    "name": "ISO 9001",
+                    "count": 26,
+                    "percentage": 7.3
+                },
+                {
+                    "name": "Microsoft Office",
+                    "count": 25,
+                    "percentage": 7.0
+                },
+                {
+                    "name": "FMEA",
+                    "count": 24,
+                    "percentage": 6.8
+                },
+                {
+                    "name": "Excel",
+                    "count": 23,
+                    "percentage": 6.5
+                },
+                {
+                    "name": "SQL",
+                    "count": 22,
+                    "percentage": 6.2
+                },
+                {
+                    "name": "Mandarin",
+                    "count": 19,
+                    "percentage": 5.4
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Quality Assurance",
+                    "count": 59,
+                    "percentage": 16.6
+                },
+                {
+                    "name": "Manufacturing",
+                    "count": 53,
+                    "percentage": 14.9
+                },
+                {
+                    "name": "Quality Control",
+                    "count": 22,
+                    "percentage": 6.2
+                },
+                {
+                    "name": "Quality Management",
+                    "count": 17,
+                    "percentage": 4.8
+                },
+                {
+                    "name": "Software Testing",
+                    "count": 10,
+                    "percentage": 2.8
+                },
+                {
+                    "name": "Automation",
+                    "count": 10,
+                    "percentage": 2.8
+                },
+                {
+                    "name": "Test Automation",
+                    "count": 9,
+                    "percentage": 2.5
+                },
+                {
+                    "name": "Industrial Automation",
+                    "count": 9,
+                    "percentage": 2.5
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Problem-solving",
+                "Teamwork",
+                "Problem Solving"
+            ]
+        },
+        "Fullstack": {
+            "job_count": 91,
+            "salary": {
+                "avg_min": 6629,
+                "avg_max": 8817,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "React",
+                    "count": 46,
+                    "percentage": 50.5
+                },
+                {
+                    "name": "JavaScript",
+                    "count": 42,
+                    "percentage": 46.2
+                },
+                {
+                    "name": "Python",
+                    "count": 33,
+                    "percentage": 36.3
+                },
+                {
+                    "name": "TypeScript",
+                    "count": 32,
+                    "percentage": 35.2
+                },
+                {
+                    "name": "Node.js",
+                    "count": 31,
+                    "percentage": 34.1
+                },
+                {
+                    "name": "Git",
+                    "count": 28,
+                    "percentage": 30.8
+                },
+                {
+                    "name": "MySQL",
+                    "count": 26,
+                    "percentage": 28.6
+                },
+                {
+                    "name": "Next.js",
+                    "count": 21,
+                    "percentage": 23.1
+                },
+                {
+                    "name": "PostgreSQL",
+                    "count": 21,
+                    "percentage": 23.1
+                },
+                {
+                    "name": "Java",
+                    "count": 21,
+                    "percentage": 23.1
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Full Stack Development",
+                    "count": 18,
+                    "percentage": 19.8
+                },
+                {
+                    "name": "Microservices",
+                    "count": 13,
+                    "percentage": 14.3
+                },
+                {
+                    "name": "Web Development",
+                    "count": 11,
+                    "percentage": 12.1
+                },
+                {
+                    "name": "Web Applications",
+                    "count": 11,
+                    "percentage": 12.1
+                },
+                {
+                    "name": "Backend Development",
+                    "count": 9,
+                    "percentage": 9.9
+                },
+                {
+                    "name": "Database Management",
+                    "count": 9,
+                    "percentage": 9.9
+                },
+                {
+                    "name": "API Design",
+                    "count": 9,
+                    "percentage": 9.9
+                },
+                {
+                    "name": "CI/CD Pipelines",
+                    "count": 8,
+                    "percentage": 8.8
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Problem-solving",
+                "Collaboration",
+                "Teamwork"
+            ]
+        },
+        "Frontend Web": {
+            "job_count": 84,
+            "salary": {
+                "avg_min": 6543,
+                "avg_max": 8903,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "JavaScript",
+                    "count": 34,
+                    "percentage": 40.5
+                },
+                {
+                    "name": "Figma",
+                    "count": 30,
+                    "percentage": 35.7
+                },
+                {
+                    "name": "CSS",
+                    "count": 19,
+                    "percentage": 22.6
+                },
+                {
+                    "name": "HTML5",
+                    "count": 17,
+                    "percentage": 20.2
+                },
+                {
+                    "name": "TypeScript",
+                    "count": 17,
+                    "percentage": 20.2
+                },
+                {
+                    "name": "HTML",
+                    "count": 16,
+                    "percentage": 19.0
+                },
+                {
+                    "name": "Git",
+                    "count": 15,
+                    "percentage": 17.9
+                },
+                {
+                    "name": "React",
+                    "count": 13,
+                    "percentage": 15.5
+                },
+                {
+                    "name": "Adobe XD",
+                    "count": 12,
+                    "percentage": 14.3
+                },
+                {
+                    "name": "CSS3",
+                    "count": 11,
+                    "percentage": 13.1
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Frontend Development",
+                    "count": 16,
+                    "percentage": 19.0
+                },
+                {
+                    "name": "Web Development",
+                    "count": 15,
+                    "percentage": 17.9
+                },
+                {
+                    "name": "UI/UX Design",
+                    "count": 13,
+                    "percentage": 15.5
+                },
+                {
+                    "name": "Web Design",
+                    "count": 10,
+                    "percentage": 11.9
+                },
+                {
+                    "name": "Web Applications",
+                    "count": 7,
+                    "percentage": 8.3
+                },
+                {
+                    "name": "Responsive Design",
+                    "count": 5,
+                    "percentage": 6.0
+                },
+                {
+                    "name": "Game Development",
+                    "count": 5,
+                    "percentage": 6.0
+                },
+                {
+                    "name": "Graphic Design",
+                    "count": 5,
+                    "percentage": 6.0
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Collaboration",
+                "Teamwork",
+                "Problem-solving"
+            ]
+        },
+        "Data & Analytics": {
+            "job_count": 293,
+            "salary": {
+                "avg_min": 5659,
+                "avg_max": 7615,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 202,
+                    "percentage": 68.9
+                },
+                {
+                    "name": "SQL",
+                    "count": 130,
+                    "percentage": 44.4
+                },
+                {
+                    "name": "Power BI",
+                    "count": 65,
+                    "percentage": 22.2
+                },
+                {
+                    "name": "Java",
+                    "count": 47,
+                    "percentage": 16.0
+                },
+                {
+                    "name": "Excel",
+                    "count": 41,
+                    "percentage": 14.0
+                },
+                {
+                    "name": "Tableau",
+                    "count": 41,
+                    "percentage": 14.0
+                },
+                {
+                    "name": "AWS",
+                    "count": 35,
+                    "percentage": 11.9
+                },
+                {
+                    "name": "Azure",
+                    "count": 25,
+                    "percentage": 8.5
+                },
+                {
+                    "name": "Databricks",
+                    "count": 21,
+                    "percentage": 7.2
+                },
+                {
+                    "name": "R",
+                    "count": 19,
+                    "percentage": 6.5
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Data Engineering",
+                    "count": 62,
+                    "percentage": 21.2
+                },
+                {
+                    "name": "Business Intelligence",
+                    "count": 51,
+                    "percentage": 17.4
+                },
+                {
+                    "name": "Data Analytics",
+                    "count": 30,
+                    "percentage": 10.2
+                },
+                {
+                    "name": "Data Analysis",
+                    "count": 24,
+                    "percentage": 8.2
+                },
+                {
+                    "name": "Data Governance",
+                    "count": 20,
+                    "percentage": 6.8
+                },
+                {
+                    "name": "Data Science",
+                    "count": 13,
+                    "percentage": 4.4
+                },
+                {
+                    "name": "Data Warehousing",
+                    "count": 13,
+                    "percentage": 4.4
+                },
+                {
+                    "name": "Machine Learning",
+                    "count": 11,
+                    "percentage": 3.8
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Collaboration",
+                "Problem-solving",
+                "Teamwork"
+            ]
+        },
+        "Mobile Development": {
+            "job_count": 37,
+            "salary": {
+                "avg_min": 5222,
+                "avg_max": 7165,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Flutter",
+                    "count": 25,
+                    "percentage": 67.6
+                },
+                {
+                    "name": "Java",
+                    "count": 12,
+                    "percentage": 32.4
+                },
+                {
+                    "name": "Git",
+                    "count": 12,
+                    "percentage": 32.4
+                },
+                {
+                    "name": "Swift",
+                    "count": 11,
+                    "percentage": 29.7
+                },
+                {
+                    "name": "Kotlin",
+                    "count": 11,
+                    "percentage": 29.7
+                },
+                {
+                    "name": "iOS",
+                    "count": 10,
+                    "percentage": 27.0
+                },
+                {
+                    "name": "RESTful APIs",
+                    "count": 9,
+                    "percentage": 24.3
+                },
+                {
+                    "name": "React Native",
+                    "count": 9,
+                    "percentage": 24.3
+                },
+                {
+                    "name": "Dart",
+                    "count": 8,
+                    "percentage": 21.6
+                },
+                {
+                    "name": "Android",
+                    "count": 7,
+                    "percentage": 18.9
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Mobile App Development",
+                    "count": 13,
+                    "percentage": 35.1
+                },
+                {
+                    "name": "Mobile Development",
+                    "count": 6,
+                    "percentage": 16.2
+                },
+                {
+                    "name": "API Integration",
+                    "count": 5,
+                    "percentage": 13.5
+                },
+                {
+                    "name": "Android",
+                    "count": 5,
+                    "percentage": 13.5
+                },
+                {
+                    "name": "iOS",
+                    "count": 4,
+                    "percentage": 10.8
+                },
+                {
+                    "name": "Flutter Development",
+                    "count": 2,
+                    "percentage": 5.4
+                },
+                {
+                    "name": "Mobile Application Development",
+                    "count": 2,
+                    "percentage": 5.4
+                },
+                {
+                    "name": "Web Development",
+                    "count": 2,
+                    "percentage": 5.4
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Problem-solving",
+                "Collaboration",
+                "Problem Solving"
+            ]
+        },
+        "Cloud & DevOps": {
+            "job_count": 83,
+            "salary": {
+                "avg_min": 8416,
+                "avg_max": 11500,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 57,
+                    "percentage": 68.7
+                },
+                {
+                    "name": "AWS",
+                    "count": 45,
+                    "percentage": 54.2
+                },
+                {
+                    "name": "Docker",
+                    "count": 36,
+                    "percentage": 43.4
+                },
+                {
+                    "name": "Kubernetes",
+                    "count": 33,
+                    "percentage": 39.8
+                },
+                {
+                    "name": "Terraform",
+                    "count": 28,
+                    "percentage": 33.7
+                },
+                {
+                    "name": "Linux",
+                    "count": 28,
+                    "percentage": 33.7
+                },
+                {
+                    "name": "Azure",
+                    "count": 27,
+                    "percentage": 32.5
+                },
+                {
+                    "name": "Bash",
+                    "count": 21,
+                    "percentage": 25.3
+                },
+                {
+                    "name": "Java",
+                    "count": 17,
+                    "percentage": 20.5
+                },
+                {
+                    "name": "PowerShell",
+                    "count": 16,
+                    "percentage": 19.3
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "DevOps",
+                    "count": 27,
+                    "percentage": 32.5
+                },
+                {
+                    "name": "Containerization",
+                    "count": 17,
+                    "percentage": 20.5
+                },
+                {
+                    "name": "Cloud Infrastructure",
+                    "count": 11,
+                    "percentage": 13.3
+                },
+                {
+                    "name": "CI/CD Pipelines",
+                    "count": 11,
+                    "percentage": 13.3
+                },
+                {
+                    "name": "Infrastructure as Code (IaC)",
+                    "count": 9,
+                    "percentage": 10.8
+                },
+                {
+                    "name": "Cloud Computing",
+                    "count": 9,
+                    "percentage": 10.8
+                },
+                {
+                    "name": "CI/CD",
+                    "count": 8,
+                    "percentage": 9.6
+                },
+                {
+                    "name": "Cloud Migration",
+                    "count": 6,
+                    "percentage": 7.2
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Collaboration",
+                "Problem-solving",
+                "Teamwork"
+            ]
+        },
+        "AI & Machine Learning": {
+            "job_count": 105,
+            "salary": {
+                "avg_min": 7413,
+                "avg_max": 10218,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 98,
+                    "percentage": 93.3
+                },
+                {
+                    "name": "SQL",
+                    "count": 31,
+                    "percentage": 29.5
+                },
+                {
+                    "name": "PyTorch",
+                    "count": 25,
+                    "percentage": 23.8
+                },
+                {
+                    "name": "Docker",
+                    "count": 25,
+                    "percentage": 23.8
+                },
+                {
+                    "name": "TensorFlow",
+                    "count": 23,
+                    "percentage": 21.9
+                },
+                {
+                    "name": "Kubernetes",
+                    "count": 22,
+                    "percentage": 21.0
+                },
+                {
+                    "name": "AWS",
+                    "count": 21,
+                    "percentage": 20.0
+                },
+                {
+                    "name": "Azure",
+                    "count": 19,
+                    "percentage": 18.1
+                },
+                {
+                    "name": "Java",
+                    "count": 18,
+                    "percentage": 17.1
+                },
+                {
+                    "name": "R",
+                    "count": 16,
+                    "percentage": 15.2
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "NLP",
+                    "count": 48,
+                    "percentage": 45.7
+                },
+                {
+                    "name": "Computer Vision",
+                    "count": 39,
+                    "percentage": 37.1
+                },
+                {
+                    "name": "Data Engineering",
+                    "count": 28,
+                    "percentage": 26.7
+                },
+                {
+                    "name": "Machine Learning",
+                    "count": 21,
+                    "percentage": 20.0
+                },
+                {
+                    "name": "Deep Learning",
+                    "count": 14,
+                    "percentage": 13.3
+                },
+                {
+                    "name": "Generative AI",
+                    "count": 14,
+                    "percentage": 13.3
+                },
+                {
+                    "name": "Data Science",
+                    "count": 13,
+                    "percentage": 12.4
+                },
+                {
+                    "name": "AI",
+                    "count": 12,
+                    "percentage": 11.4
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Collaboration",
+                "Problem-solving",
+                "Problem Solving"
+            ]
+        },
+        "Project & Sales Engineering": {
+            "job_count": 91,
+            "salary": {
+                "avg_min": 4837,
+                "avg_max": 6731,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 48,
+                    "percentage": 52.7
+                },
+                {
+                    "name": "Java",
+                    "count": 20,
+                    "percentage": 22.0
+                },
+                {
+                    "name": "AutoCAD",
+                    "count": 11,
+                    "percentage": 12.1
+                },
+                {
+                    "name": "AWS",
+                    "count": 10,
+                    "percentage": 11.0
+                },
+                {
+                    "name": "Microsoft Office",
+                    "count": 8,
+                    "percentage": 8.8
+                },
+                {
+                    "name": "SQL",
+                    "count": 6,
+                    "percentage": 6.6
+                },
+                {
+                    "name": "English",
+                    "count": 5,
+                    "percentage": 5.5
+                },
+                {
+                    "name": "C++",
+                    "count": 5,
+                    "percentage": 5.5
+                },
+                {
+                    "name": "PLC",
+                    "count": 4,
+                    "percentage": 4.4
+                },
+                {
+                    "name": "C#",
+                    "count": 4,
+                    "percentage": 4.4
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Industrial Automation",
+                    "count": 4,
+                    "percentage": 4.4
+                },
+                {
+                    "name": "DevOps",
+                    "count": 3,
+                    "percentage": 3.3
+                },
+                {
+                    "name": "Digital Transformation",
+                    "count": 3,
+                    "percentage": 3.3
+                },
+                {
+                    "name": "Electrical Engineering",
+                    "count": 3,
+                    "percentage": 3.3
+                },
+                {
+                    "name": "Regulatory Compliance",
+                    "count": 2,
+                    "percentage": 2.2
+                },
+                {
+                    "name": "Production Engineering",
+                    "count": 2,
+                    "percentage": 2.2
+                },
+                {
+                    "name": "Security Systems",
+                    "count": 2,
+                    "percentage": 2.2
+                },
+                {
+                    "name": "Embedded Systems",
+                    "count": 2,
+                    "percentage": 2.2
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Teamwork",
+                "Collaboration",
+                "Time Management"
+            ]
+        },
+        "Hardware & Manufacturing": {
+            "job_count": 178,
+            "salary": {
+                "avg_min": 4364,
+                "avg_max": 5988,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 88,
+                    "percentage": 49.4
+                },
+                {
+                    "name": "AutoCAD",
+                    "count": 29,
+                    "percentage": 16.3
+                },
+                {
+                    "name": "Java",
+                    "count": 19,
+                    "percentage": 10.7
+                },
+                {
+                    "name": "SolidWorks",
+                    "count": 12,
+                    "percentage": 6.7
+                },
+                {
+                    "name": "C++",
+                    "count": 11,
+                    "percentage": 6.2
+                },
+                {
+                    "name": "Electrical Engineering",
+                    "count": 10,
+                    "percentage": 5.6
+                },
+                {
+                    "name": "Microsoft Office",
+                    "count": 9,
+                    "percentage": 5.1
+                },
+                {
+                    "name": "Excel",
+                    "count": 8,
+                    "percentage": 4.5
+                },
+                {
+                    "name": "English",
+                    "count": 7,
+                    "percentage": 3.9
+                },
+                {
+                    "name": "SAP",
+                    "count": 6,
+                    "percentage": 3.4
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Electrical Engineering",
+                    "count": 14,
+                    "percentage": 7.9
+                },
+                {
+                    "name": "Manufacturing",
+                    "count": 11,
+                    "percentage": 6.2
+                },
+                {
+                    "name": "Automation",
+                    "count": 10,
+                    "percentage": 5.6
+                },
+                {
+                    "name": "Industrial Automation",
+                    "count": 8,
+                    "percentage": 4.5
+                },
+                {
+                    "name": "Mechanical Engineering",
+                    "count": 7,
+                    "percentage": 3.9
+                },
+                {
+                    "name": "Mechanical Design",
+                    "count": 6,
+                    "percentage": 3.4
+                },
+                {
+                    "name": "Quality Control",
+                    "count": 6,
+                    "percentage": 3.4
+                },
+                {
+                    "name": "Process Engineering",
+                    "count": 4,
+                    "percentage": 2.2
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Problem-solving",
+                "Teamwork",
+                "Collaboration"
+            ]
+        },
+        "Network & Infrastructure": {
+            "job_count": 85,
+            "salary": {
+                "avg_min": 5800,
+                "avg_max": 7485,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 51,
+                    "percentage": 60.0
+                },
+                {
+                    "name": "AWS",
+                    "count": 20,
+                    "percentage": 23.5
+                },
+                {
+                    "name": "Linux",
+                    "count": 17,
+                    "percentage": 20.0
+                },
+                {
+                    "name": "TCP/IP",
+                    "count": 13,
+                    "percentage": 15.3
+                },
+                {
+                    "name": "Azure",
+                    "count": 13,
+                    "percentage": 15.3
+                },
+                {
+                    "name": "Java",
+                    "count": 13,
+                    "percentage": 15.3
+                },
+                {
+                    "name": "Active Directory",
+                    "count": 12,
+                    "percentage": 14.1
+                },
+                {
+                    "name": "Cisco",
+                    "count": 11,
+                    "percentage": 12.9
+                },
+                {
+                    "name": "DNS",
+                    "count": 11,
+                    "percentage": 12.9
+                },
+                {
+                    "name": "VMware",
+                    "count": 10,
+                    "percentage": 11.8
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Network Administration",
+                    "count": 9,
+                    "percentage": 10.6
+                },
+                {
+                    "name": "Network Security",
+                    "count": 9,
+                    "percentage": 10.6
+                },
+                {
+                    "name": "Network Infrastructure",
+                    "count": 6,
+                    "percentage": 7.1
+                },
+                {
+                    "name": "SD-WAN",
+                    "count": 6,
+                    "percentage": 7.1
+                },
+                {
+                    "name": "Networking",
+                    "count": 5,
+                    "percentage": 5.9
+                },
+                {
+                    "name": "Cloud Networking",
+                    "count": 5,
+                    "percentage": 5.9
+                },
+                {
+                    "name": "DevOps",
+                    "count": 5,
+                    "percentage": 5.9
+                },
+                {
+                    "name": "Server Administration",
+                    "count": 5,
+                    "percentage": 5.9
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Problem-solving",
+                "Problem Solving",
+                "Collaboration"
+            ]
+        },
+        "Cybersecurity": {
+            "job_count": 83,
+            "salary": {
+                "avg_min": 4929,
+                "avg_max": 6547,
+                "currency": "MYR"
+            },
+            "top_hard_skills": [
+                {
+                    "name": "Python",
+                    "count": 57,
+                    "percentage": 68.7
+                },
+                {
+                    "name": "Java",
+                    "count": 17,
+                    "percentage": 20.5
+                },
+                {
+                    "name": "SIEM",
+                    "count": 16,
+                    "percentage": 19.3
+                },
+                {
+                    "name": "Firewalls",
+                    "count": 14,
+                    "percentage": 16.9
+                },
+                {
+                    "name": "AWS",
+                    "count": 13,
+                    "percentage": 15.7
+                },
+                {
+                    "name": "EDR",
+                    "count": 9,
+                    "percentage": 10.8
+                },
+                {
+                    "name": "IDS/IPS",
+                    "count": 8,
+                    "percentage": 9.6
+                },
+                {
+                    "name": "CISSP",
+                    "count": 7,
+                    "percentage": 8.4
+                },
+                {
+                    "name": "Linux",
+                    "count": 7,
+                    "percentage": 8.4
+                },
+                {
+                    "name": "DNS",
+                    "count": 7,
+                    "percentage": 8.4
+                }
+            ],
+            "top_technical_context": [
+                {
+                    "name": "Cybersecurity",
+                    "count": 18,
+                    "percentage": 21.7
+                },
+                {
+                    "name": "Incident Response",
+                    "count": 13,
+                    "percentage": 15.7
+                },
+                {
+                    "name": "Network Security",
+                    "count": 13,
+                    "percentage": 15.7
+                },
+                {
+                    "name": "Cloud Security",
+                    "count": 12,
+                    "percentage": 14.5
+                },
+                {
+                    "name": "Security Operations",
+                    "count": 6,
+                    "percentage": 7.2
+                },
+                {
+                    "name": "Network Administration",
+                    "count": 4,
+                    "percentage": 4.8
+                },
+                {
+                    "name": "Penetration Testing",
+                    "count": 4,
+                    "percentage": 4.8
+                },
+                {
+                    "name": "Networking",
+                    "count": 4,
+                    "percentage": 4.8
+                }
+            ],
+            "top_soft_skills": [
+                "Communication",
+                "Leadership",
+                "Collaboration",
+                "Analytical skills",
+                "Teamwork"
+            ]
+        }
+    }
+}
