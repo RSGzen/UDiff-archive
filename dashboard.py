@@ -100,9 +100,21 @@ with col2:
     st.metric("Est. Base Salary (MYR)", f"{avg_min:,.0f} - {avg_max:,.0f}")
     
 with col3:
-    # Market Share Calculation (vs Total in Category, not Total in Market)
-    total_in_cat = cat_data_root['All']['job_count']
-    share = (cat_data['job_count'] / total_in_cat) * 100
+    # --- ROBUST MARKET SHARE CALCULATION ---
+    # Check if we are using the new nested data (has 'All') or old flat data
+    if 'All' in cat_data_root:
+        # New Format
+        total_in_cat = cat_data_root['All']['job_count']
+    else:
+        # Old Format (Fallback)
+        total_in_cat = cat_data_root['job_count']
+
+    # Prevent division by zero
+    if total_in_cat > 0:
+        share = (cat_data['job_count'] / total_in_cat) * 100
+    else:
+        share = 0
+
     st.metric(f"Share of {selected_category}", f"{share:.1f}%")
 
 # 2. HARD SKILLS & CONTEXT LAYOUT
