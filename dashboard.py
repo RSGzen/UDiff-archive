@@ -44,32 +44,47 @@ if not data:
 
 # --- SIDEBAR (FILTERS) ---
 st.sidebar.header("🔍 Filters")
+
+# 1. CATEGORY SELECTION
 all_categories = list(data['categories'].keys())
-# Remove 'Other' from top selection if possible to focus on tech
-if 'Other' in all_categories: all_categories.remove('Other')
+
+# Remove jobs of 'Other '
+if 'Other' in all_categories: 
+    all_categories.remove('Other')
+
 all_categories.sort()
 
-selected_category = st.sidebar.selectbox("Select Career Path", all_categories)
+selected_category = st.sidebar.selectbox(
+    "Select Career Path", 
+    all_categories,
+    key="category_select"  # <--- UNIQUE KEY ADDED
+)
 
 # --- MAIN DASHBOARD ---
 
-# 0. CATEGORY SELECTION (Existing)
-selected_category = st.sidebar.selectbox("Select Career Path", all_categories)
-cat_data_root = data['categories'][selected_category]
-
 # --- NEW: EXPERIENCE LEVEL FILTER ---
 
-# Check which levels exist for this category
-available_levels = list(cat_data_root.keys()) # e.g., ['All', 'Junior', 'Senior']
+cat_data_root = data['categories'][selected_category]
 
-# Sort to ensure logical order
-level_order = ['All', 'Junior', 'Mid', 'Senior']
-sorted_levels = [l for l in level_order if l in available_levels]
+# Check if this is the OLD JSON format (flat dictionary) or NEW (nested levels)
+if 'job_count' in cat_data_root:
+    # OLD FORMAT DETECTED (Pipeline hasn't finished running yet)
+    st.sidebar.warning("⚠️ Using legacy data. Run pipeline for 'Level' filters.")
+    selected_level = 'All'
+    cat_data = cat_data_root # Treat the whole object as the data
+else:
+    # NEW FORMAT DETECTED (Nested levels)
+    available_levels = list(cat_data_root.keys())
+    level_order = ['All', 'Junior', 'Mid', 'Senior']
+    sorted_levels = [l for l in level_order if l in available_levels]
 
-selected_level = st.sidebar.radio("Experience Level", sorted_levels, horizontal=True)
-
-# LOAD THE SUB-DATA
-cat_data = cat_data_root[selected_level]
+    selected_level = st.sidebar.radio(
+        "Experience Level", 
+        sorted_levels, 
+        horizontal=True,
+        key="level_select" # <--- UNIQUE KEY ADDED
+    )
+    cat_data = cat_data_root[selected_level]
 
 # 1. HIGH LEVEL METRICS (Now Dynamic!)
 col1, col2, col3 = st.columns(3)
