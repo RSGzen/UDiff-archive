@@ -53,19 +53,42 @@ selected_category = st.sidebar.selectbox("Select Career Path", all_categories)
 
 # --- MAIN DASHBOARD ---
 
-# 1. HIGH LEVEL METRICS
+# 0. CATEGORY SELECTION (Existing)
+selected_category = st.sidebar.selectbox("Select Career Path", all_categories)
+cat_data_root = data['categories'][selected_category]
+
+# --- NEW: EXPERIENCE LEVEL FILTER ---
+
+# Check which levels exist for this category
+available_levels = list(cat_data_root.keys()) # e.g., ['All', 'Junior', 'Senior']
+
+# Sort to ensure logical order
+level_order = ['All', 'Junior', 'Mid', 'Senior']
+sorted_levels = [l for l in level_order if l in available_levels]
+
+selected_level = st.sidebar.radio("Experience Level", sorted_levels, horizontal=True)
+
+# LOAD THE SUB-DATA
+cat_data = cat_data_root[selected_level]
+
+# 1. HIGH LEVEL METRICS (Now Dynamic!)
 col1, col2, col3 = st.columns(3)
-cat_data = data['categories'][selected_category]
 
 with col1:
-    st.metric("Job Openings", f"{cat_data['job_count']}")
+    st.metric(f"{selected_level} Openings", f"{cat_data['job_count']}")
+    
 with col2:
     salary = cat_data.get('salary', {})
     avg_min = salary.get('avg_min', 0)
     avg_max = salary.get('avg_max', 0)
+    # Highlight salary changes based on level
     st.metric("Est. Base Salary (MYR)", f"{avg_min:,.0f} - {avg_max:,.0f}")
+    
 with col3:
-    st.metric("Market Share", f"{(cat_data['job_count'] / data['total_jobs_analyzed'] * 100):.1f}%")
+    # Market Share Calculation (vs Total in Category, not Total in Market)
+    total_in_cat = cat_data_root['All']['job_count']
+    share = (cat_data['job_count'] / total_in_cat) * 100
+    st.metric(f"Share of {selected_category}", f"{share:.1f}%")
 
 # 2. HARD SKILLS & CONTEXT LAYOUT
 st.markdown("### 🛠️ Technical Landscape")
