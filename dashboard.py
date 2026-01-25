@@ -134,30 +134,69 @@ with c1:
             st.success(f"**{skill}**")
 
 with c2:
-    st.markdown("### ☁️ Keyword Cloud")
-    # Generate WordCloud from FREQUENCIES (Much higher quality)
+    st.markdown("### 🗺️ Context Map")
+    st.caption("Dominant technologies and domains represented by area size.")
     
-    # Merge hard skills + context for a rich cloud
-    freq_dict = {}
-    for item in hard_skills + context_list:
-        freq_dict[item['name']] = item['count']
+    # Prepare data for Treemap
+    treemap_data = []
+    # Combine hard skills (top 15) and context (top 10)
+    for item in hard_skills[:15] + context_list[:10]:
+        treemap_data.append({
+            "Label": item['name'],
+            "Value": item['count'],
+            "Type": "Skill" if item in hard_skills else "Context"
+        })
+    
+    if treemap_data:
+        df_tree = pd.DataFrame(treemap_data)
         
-    if freq_dict:
-        # Create cloud with better font/background
-        wc = WordCloud(
-            width=800, 
-            height=400, 
-            background_color='#0e1117', # Matches Streamlit Dark Mode
-            colormap='BuPu',
-            prefer_horizontal=0.9
-        ).generate_from_frequencies(freq_dict)
+        fig_tree = px.treemap(
+            df_tree, 
+            path=['Type', 'Label'], 
+            values='Value',
+            color='Value',
+            color_continuous_scale='Blues',
+            title=''
+        )
+        fig_tree.update_layout(margin=dict(t=0, l=0, r=0, b=0))
+        st.plotly_chart(fig_tree, use_container_width=True)
+
+# 4. Personal Skill Check Roadmap
+st.markdown("---")
+st.header("✅ Am I Ready?")
+st.caption("Select the skills you already possess to see your market fit.")
+
+## 1. Get all top skills for this category
+top_skill_names = [s['name'] for s in cat_data.get('top_hard_skills', [])][:20]
+
+## 2. User Input
+user_skills = st.multiselect("My Tech Stack", top_skill_names)
+
+## 3. Calculation
+if user_skills:
+    match_count = len(user_skills)
+    total_needed = len(top_skill_names)
+    score = (match_count / total_needed) * 100
+    
+    # 4. Feedback
+    col_score, col_msg = st.columns([1, 3])
+    
+    with col_score:
+        st.metric("Readiness Score", f"{score:.0f}%")
         
-        fig_wc, ax = plt.subplots(figsize=(10, 5))
-        ax.imshow(wc, interpolation='bilinear')
-        ax.axis("off")
-        # Remove whitespace around plot
-        plt.subplots_adjust(top=1, bottom=0, right=1, left=0, hspace=0, wspace=0)
-        st.pyplot(fig_wc)
+    with col_msg:
+        if score < 30:
+            st.warning("⚠️ You have a significant gap. Focus on the top 3 missing skills.")
+        elif score < 70:
+            st.info("📈 Good foundation! Build 1-2 projects using the missing tools.")
+        else:
+            st.success("🚀 You are highly competitive! Start applying now.")
+            
+    # Show missing skills
+    missing = [s for s in top_skill_names if s not in user_skills]
+    if missing:
+        st.write("**Recommended to learn next:**")
+        st.write(", ".join(missing[:5]))
 
 # --- RAW DATA VIEW ---
 with st.expander("🔎 View Raw JSON Segment"):
