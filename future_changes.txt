@@ -1,0 +1,19 @@
+Feature Requests: 
+- Able to explore how different jobs that request different years of experience would differ in:
+    Soft skill, hard skill, technical skill and salary
+
+- Able to perform comparison between different university curriculums with industry reality
+    Extract university curriculums that offer tech courses as mentioned in our job type
+
+- When hovering over a skill, I would able to learn more about the particular skill
+    Create pages that offer quick glance and explanation over the skill 
+    Provide verified learning materials on the web on the pages
+
+- Able to compare my current curriculum progress with industrial standards
+    Personal roadmap and checks based on current university courses
+    Student can cross out skills that they have mastered and move to next one
+
+Website UI requests:
+- Very basic and lack modern UI designs
+- Lack animations and interaction in graphs and buttons
+- Wordcloud looks odd and not fitting with current style
